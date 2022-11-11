@@ -1,4 +1,4 @@
-FROM althack/ros2:foxy-dev 
+FROM althack/ros:noetic-gazebo 
 
 # ** [Optional] Uncomment this section to install additional packages. **
 #
