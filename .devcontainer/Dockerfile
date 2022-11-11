@@ -1,10 +1,10 @@
 FROM althack/ros:noetic-gazebo 
 
-# ** [Optional] Uncomment this section to install additional packages. **
-#
+# # ** [Optional] Uncomment this section to install additional packages. **
+
 # ENV DEBIAN_FRONTEND=noninteractive
 # RUN apt-get update \
-#    && apt-get -y install --no-install-recommends <your-package-list-here> \
+#    && apt-get -y install --no-install-recommends python-catkin-tools \
 #    #
 #    # Clean up
 #    && apt-get autoremove -y \
